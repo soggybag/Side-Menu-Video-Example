@@ -17,6 +17,7 @@
 		7BB1A8FE1ADA332400699EB3 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB1A8FC1ADA332400699EB3 /* ENSideMenuNavigationController.swift */; };
 		7BB1A9001ADA33A600699EB3 /* SideNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB1A8FF1ADA33A600699EB3 /* SideNavigationController.swift */; };
 		7BB1A9021ADA34B100699EB3 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB1A9011ADA34B100699EB3 /* MenuTableViewController.swift */; };
+		7BB1A9041ADA38DA00699EB3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB1A9031ADA38DA00699EB3 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7BB1A8FC1ADA332400699EB3 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 		7BB1A8FF1ADA33A600699EB3 /* SideNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideNavigationController.swift; sourceTree = "<group>"; };
 		7BB1A9011ADA34B100699EB3 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		7BB1A9031ADA38DA00699EB3 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				7BB1A8DB1ADA330E00699EB3 /* AppDelegate.swift */,
 				7BB1A8DD1ADA330E00699EB3 /* ViewController.swift */,
 				7BB1A8DF1ADA330E00699EB3 /* Main.storyboard */,
+				7BB1A9031ADA38DA00699EB3 /* SecondViewController.swift */,
 				7BB1A9011ADA34B100699EB3 /* MenuTableViewController.swift */,
 				7BB1A8FF1ADA33A600699EB3 /* SideNavigationController.swift */,
 				7BB1A8E21ADA330E00699EB3 /* Images.xcassets */,
@@ -228,6 +231,7 @@
 				7BB1A8FD1ADA332400699EB3 /* ENSideMenu.swift in Sources */,
 				7BB1A9021ADA34B100699EB3 /* MenuTableViewController.swift in Sources */,
 				7BB1A9001ADA33A600699EB3 /* SideNavigationController.swift in Sources */,
+				7BB1A9041ADA38DA00699EB3 /* SecondViewController.swift in Sources */,
 				7BB1A8DE1ADA330E00699EB3 /* ViewController.swift in Sources */,
 				7BB1A8DC1ADA330E00699EB3 /* AppDelegate.swift in Sources */,
 			);

@@ -23,6 +23,18 @@ class MenuTableViewController: UITableViewController {
 
     // MARK: - Table view data source
     
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        var destinationVC: UIViewController!
+        
+        if indexPath.row == 1 {
+            destinationVC = storyboard.instantiateViewControllerWithIdentifier("SecondViewController") as! SecondViewController
+        } else {
+            destinationVC = storyboard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+        }
+        
+        sideMenuController()?.setContentViewController(destinationVC)
+    }
     
     
 }
